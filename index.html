@@ -7,46 +7,42 @@
 </head>
 <body>
   <!-- substitua os elementos não semânticos por elementos semânticos -->
-  <div id="recipiente">
-    <div id="cabecalho">
+  <article id="recipiente">
+    <header id="cabecalho">
       <h1>Lanchonete do Coral 55</h1>
       <h2>O melhor açaí marítimo da região</h2>
-    </div>
-    <div id="conteudo">
-      <div id="lateral">
-        <img src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
+    </header>
+    <section id="conteudo">
+      <aside id="lateral">
+        <img id="siri"src="images/siri.png" alt="Um siri feliz após comer na lanchonete">
         <h2>Cardápio</h2>
-        <img src="images/bolhas.png" alt="Bolhas de ar">
-        <img src="images/peixe.png" alt="Peixe feliz após beber um delicioso
+        <img id="bolhas"src="images/bolhas.png" alt="Bolhas de ar">
+        <img id="peixe" src="images/peixe.png" alt="Peixe feliz após beber um delicioso
           coquetel de algas">
-      </div>
-      <div id="cardapio">
+      </aside>
+      <article id="cardapio">
         <h3>Salgados</h3>
-        <!--
-          encontre uma forma para dispor os itens do cardápio com seus
-          nomes à esquerda e os preços à direita
-        -->
-        Pão de queijo de égua marinha $ 0,99
-        Hamburguer de microinsetos com salada de algas ou de musgo $ 2,49
+        <section>Pão de queijo de égua marinha <section class="preco">$ 0,99</section> </section>
+		<section>Hamburguer de microinsetos com salada de algas ou de musgo <section class="preco">$ 2,49</section> </section>
         <h3>Pratos</h3>
-        Açaí do manguezal 500ml $ 4,99
-        Açaí marítimo (assinatura) 500ml $ 6,99
-        Algas verdes fritas $ 7,49
-        Plâncton ao molho de maracujá $ 12,49
-        Plâncton do pacífico (importado) marinado $ 19,99
+        <section>Açaí do manguezal 500ml <section class="preco">$ 4,99</section> </section>
+        <section>Açaí marítimo (assinatura) 500ml <section class="preco">$ 6,99</section> </section>
+        <section>Algas verdes fritas <section class="preco">$ 7,49</section> </section>
+        <section>Plâncton ao molho de maracujá <section class="preco">$ 12,49</section> </section>
+        <section>Plâncton do pacífico (importado) marinado <section class="preco">$ 19,99</section> </section>
         <h3>Bebes</h3>
-        Água temperada (cortesia)
-        Água doce importada (copo) $ 29,49
-        Coquetel de algas (alcoólico) $ 8,99
-        Coquetel de algas (kids) $ 5,49
-      </div>
-    </div>
-    <div id="rodape">
+        <section>Água temperada <section class="preco">(cortesia)</section> </section>
+        <section>Água doce importada (copo) <section class="preco">$ 29,49</section> </section>
+        <section>Coquetel de algas (alcoólico) <section class="preco">$ 8,99</section> </section>
+        <section>Coquetel de algas (kids) <section class="preco">$ 5,49</section> </section>
+      </article>
+    </section>
+    <footer id="rodape">
       <img src="images/cartoes.png" alt="Formas de pagamento: Visa e Masterard">
-    </div>
-  </div>
-  <div id="ticket">
+    </footer>
+  </article>
+  <aside id="ticket">
     <img src="images/ticket.png" alt="Cupom de desconto">
-  </div>
+  </aside>
 </body>
 </html>
